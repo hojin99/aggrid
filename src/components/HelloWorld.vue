@@ -50,7 +50,6 @@ export default {
       this.columnApi = params.columnApi;
     },
     getSelectedRows() {
-
       const selectedNodes = this.gridApi.getSelectedNodes();
       const selectedData = selectedNodes.map( node => node.data);
       const selectdDataStringPresetation = selectedData.map(node => `${node.make} ${node.model}`).join(', ');

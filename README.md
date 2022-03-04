@@ -13,11 +13,11 @@ vue cli 업데이트
 vue 프로젝트 생성(상위 디렉토리에서 실행, 기본 구성)  
 `vue create vuejs`
 
-* ag grid 설치
-`npm install --save ag-grid-community ag-grid-vue vue-property-decorator@^8.0.0`  
-
 * vuetify 설치
 `vue add vuetify`  
+
+* ag grid 설치
+`npm install --save ag-grid-community ag-grid-vue vue-property-decorator@^8.0.0`  
 
 ## 실행  
 package.json의 scripts를 통해서 실행  
